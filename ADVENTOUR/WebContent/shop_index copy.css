@@ -36,9 +36,9 @@ p{
     background-color:   rgb(20, 3, 78);
 }
 
-/*--------------------------헤더끝-----------------------------------------*/
+/*--------------------------�뿤�뜑�걹-----------------------------------------*/
 
-/*메인 이미지*/
+/*硫붿씤 �씠誘몄�*/
 .mImg {
     width: 1903px;
     height: 550px;
@@ -63,7 +63,7 @@ p{
     vertical-align: middle;
 }
 
-/*select박스*/
+/*select諛뺤뒪*/
 .mImg div{
     width: 1000px;
     height: 180px;
@@ -82,7 +82,7 @@ p{
     font-size: 20px;
     font-weight: bold;
 }
-/*검색텍스트박스*/
+/*寃��깋�뀓�뒪�듃諛뺤뒪*/
 #mSrchT {
     width: 280px;
     height: 35px;
@@ -90,7 +90,7 @@ p{
     border-radius: 3px;
     border-width: 0px;
 }
-/*버튼*/
+/*踰꾪듉*/
 #mSrchBtn {
     width: 100px;
     height: 40.4px;
@@ -103,7 +103,7 @@ p{
     opacity: 0.7;
     color: rgb(255, 255, 255);
 }
-/*인기 상품 텍스트 박스*/
+/*�씤湲� �긽�뭹 �뀓�뒪�듃 諛뺤뒪*/
 div h1{
     width: 1215px;
     margin: 50px 320px 30px 330px;
@@ -113,8 +113,8 @@ div h1{
 }
 
 
-/*---------상품박스관련 공통----------*/
-/*쇼핑몰 상품 전체 박스*/
+/*---------�긽�뭹諛뺤뒪愿��젴 怨듯넻----------*/
+/*�눥�븨紐� �긽�뭹 �쟾泥� 諛뺤뒪*/
 .stffAllB {
     width: 1300px;
     height: 2300px;
@@ -123,14 +123,14 @@ div h1{
     color:  rgb(20, 3, 78);
 }
 
-/*탭박스 이미지 박스 4개씩 모음*/
+/*�꺆諛뺤뒪 �씠誘몄� 諛뺤뒪 4媛쒖뵫 紐⑥쓬*/
 .bstGdsB{
     width: 1300px;
     height: 600px;
     /* border: 1px solid black; */
 }
 
-/*오숑제안,좋할상품 이미지 박스 5개씩 모음*/
+/*�삤�닊�젣�븞,醫뗮븷�긽�뭹 �씠誘몄� 諛뺤뒪 5媛쒖뵫 紐⑥쓬*/
 .tdShpOfCB, 
 .lkeGdsCB,
 .gdGdsCB{
@@ -139,7 +139,7 @@ div h1{
     /* border: 1px solid black; */
 }
 
-/*상품 4줄씩 박스(탭박스)*/
+/*�긽�뭹 4以꾩뵫 諛뺤뒪(�꺆諛뺤뒪)*/
 .gdsTBxPc{
     width: 1300px;
     height: 450px;
@@ -152,14 +152,14 @@ div h1{
     background-color: rgb(175, 198, 240);
     opacity: 0.75;
 }
-/*상품 4줄씩 박스 오쇼제,좋상*/
+/*�긽�뭹 4以꾩뵫 諛뺤뒪 �삤�눥�젣,醫뗭긽*/
 .gdsBxPc {
     width: 1300px;
     height: 400px;
     /* border: 1px solid black; */
 }
 
-/*탭박스 소개글 전체 박스*/
+/*�꺆諛뺤뒪 �냼媛쒓� �쟾泥� 諛뺤뒪*/
 .cgTBox{
     width: 1300px;
     height: 80px;
@@ -167,7 +167,7 @@ div h1{
     font-weight: bold;
     margin: 0px 0px 0px 0px;
 }
-/* 탭박스 소개글 개별 박스 */
+/* �꺆諛뺤뒪 �냼媛쒓� 媛쒕퀎 諛뺤뒪 */
 .cgTboxS{
     width: 100px;
     height: 80px;
@@ -181,7 +181,7 @@ div h1{
 
 
 /*
-오숑제안,좋할상품 상품대표 소개글 전체 박스*/
+�삤�닊�젣�븞,醫뗮븷�긽�뭹 �긽�뭹���몴 �냼媛쒓� �쟾泥� 諛뺤뒪*/
 .cgBox{
     width: 1300px;
     height: 30px;
@@ -189,10 +189,10 @@ div h1{
     font-weight: bold;
     margin: 50px 0px 20px 15px;
 }
-/*---------상품박스관련 공통----------*/
+/*---------�긽�뭹諛뺤뒪愿��젴 怨듯넻----------*/
 
 
-/*탭박스 상품개별 박스*/
+/*�꺆諛뺤뒪 �긽�뭹媛쒕퀎 諛뺤뒪*/
 .gdsTBxPc span{
     width: 300px;
     height: 410px;
@@ -203,7 +203,7 @@ div h1{
 }
     /* border: 1px solid #84BF96; */
 
-/*탭박스 상품 개별 이미지 박스*/
+/*�꺆諛뺤뒪 �긽�뭹 媛쒕퀎 �씠誘몄� 諛뺤뒪*/
 .gdsTBxPc img{
     width: 280px;
     height: 300px;
@@ -212,7 +212,7 @@ div h1{
     border-radius: 10px;
     opacity: 1;
 }
-/*탭박스 상품 개별 텍스트 박스*/
+/*�꺆諛뺤뒪 �긽�뭹 媛쒕퀎 �뀓�뒪�듃 諛뺤뒪*/
 .gdsTBxPc h6{
     width: 280px;
     height: 30px;
@@ -222,14 +222,14 @@ div h1{
     margin-left: 15px;
     opacity: 1;
 }
-/* 탭박스 상품탭*/
+/* �꺆諛뺤뒪 �긽�뭹�꺆*/
 .cgTboxS span{
     width: 100px;
     height: 80px;
     float: left;
     /* padding: 5px 0px 0px 0.5px; */
 }
-/* 탭박스 상품탭 이미지 */
+/* �꺆諛뺤뒪 �긽�뭹�꺆 �씠誘몄� */
 .cgTboxS img{
     width: 40px;
     height: 35px;
@@ -247,13 +247,13 @@ div h1{
 }
 .cgTboxS 
 
-/*탭박스 상품카테고리 소개글 마우스 후버*/
+/*�꺆諛뺤뒪 �긽�뭹移댄뀒怨좊━ �냼媛쒓� 留덉슦�뒪 �썑踰�*/
 .cgTboxS p:hover {
     /* color: white; */
     /* background-color: #84BF96; */
     border-bottom-width: 0px;
 }
-/*탭박스 상품탭 텍스트*/
+/*�꺆諛뺤뒪 �긽�뭹�꺆 �뀓�뒪�듃*/
 .cgTboxS p{
     width: 100px;
     height: 15px;
@@ -268,7 +268,7 @@ div h1{
 
 
 
-/*오숑제안,좋할상품 상품개별 박스*/
+/*�삤�닊�젣�븞,醫뗮븷�긽�뭹 �긽�뭹媛쒕퀎 諛뺤뒪*/
 .gdsBxPc span{
     width: 230px;
     height: 380px;
@@ -281,7 +281,7 @@ div h1{
     border-bottom-right-radius: 5px;
     /* border: 1px solid #84BF96; */
 }
-/*오숑제안,좋할상품 상품 개별 이미지 박스*/
+/*�삤�닊�젣�븞,醫뗮븷�긽�뭹 �긽�뭹 媛쒕퀎 �씠誘몄� 諛뺤뒪*/
 .gdsBxPc img{
     width: 215px;
     height: 275px;
@@ -289,7 +289,7 @@ div h1{
     margin: 5px 0px 10px 8px;
     border-radius: 10px;
 }
-/*오숑제안,좋할상품 상품 개별 텍스트 박스*/
+/*�삤�닊�젣�븞,醫뗮븷�긽�뭹 �긽�뭹 媛쒕퀎 �뀓�뒪�듃 諛뺤뒪*/
 .gdsBxPc h6{
     width: 215px;
     height: 30px;
@@ -298,7 +298,7 @@ div h1{
     margin: 0px;
     margin-left: 15px;
 }
-/*오숑제안,좋할상품 상품카테고리 소개글*/
+/*�삤�닊�젣�븞,醫뗮븷�긽�뭹 �긽�뭹移댄뀒怨좊━ �냼媛쒓�*/
 .cgBox span{
     width: 1300px;
     height: 30px;
@@ -306,7 +306,7 @@ div h1{
 }
 
 
-/*찜하기 기능때문에 만든 거..근데 동작이 안됨.*/
+/*李쒗븯湲� 湲곕뒫�븣臾몄뿉 留뚮뱺 嫄�..洹쇰뜲 �룞�옉�씠 �븞�맖.*/
 input[name="likeCB"]{
     display: none;
 }
@@ -324,9 +324,9 @@ input[name="likeCB"]{
 }
 
 
-/* js에서 css를 바로 주는게 잘 안 먹혀서 */
-/* class에 css를 지정해두고 */
-/* addClass, removeClass로 클래스를 on, off하는식으로 js에서 css 적용하도록 변경 */
+/* js�뿉�꽌 css瑜� 諛붾줈 二쇰뒗寃� �옒 �븞 癒뱁��꽌 */
+/* class�뿉 css瑜� 吏��젙�빐�몢怨� */
+/* addClass, removeClass濡� �겢�옒�뒪瑜� on, off�븯�뒗�떇�쑝濡� js�뿉�꽌 css �쟻�슜�븯�룄濡� 蹂�寃� */
 .whiteB{
     background-color: white;
 }
@@ -408,30 +408,30 @@ div.cgTBox > span.cgTboxS.gdsTBxPc_on{
 
 
 
-/* 이미지 슬라이드 */
+/* �씠誘몄� �뒳�씪�씠�뱶 */
 .gdGdsCBWrap {
-    overflow: hidden; /* 슬라이드 밖의 내용 숨김 */
-    width: 100%; /* 필요에 따라 조정 */
-    position: relative; /* 자식 요소의 위치를 상대적으로 조정할 수 있게 함 */
+    overflow: hidden; /* �뒳�씪�씠�뱶 諛뽰쓽 �궡�슜 �닲源� */
+    width: 100%; /* �븘�슂�뿉 �뵲�씪 議곗젙 */
+    position: relative; /* �옄�떇 �슂�냼�쓽 �쐞移섎�� �긽���쟻�쑝濡� 議곗젙�븷 �닔 �엳寃� �븿 */
     /* height: 470px; */
 }
 
 .gdGdsCB .gdsBxPc {
     display: flex; 
     width: 300%; 
-    height: 275px;/* 15개 상품, 5개씩 표시 => 3배의 너비 필요 */
-    transition: transform 0.5s ease; /* 부드러운 슬라이드 이동 */
+    height: 275px;/* 15媛� �긽�뭹, 5媛쒖뵫 �몴�떆 => 3諛곗쓽 �꼫鍮� �븘�슂 */
+    transition: transform 0.5s ease; /* 遺��뱶�윭�슫 �뒳�씪�씠�뱶 �씠�룞 */
 }
 
 
 .gdGdsCB .slide-arrow {
     position: absolute;
-    z-index: 10; /* 상품 이미지 위에 위치 */
-    top: 2500px; /* 상위 요소의 중간에 위치
-    transform: translateY(-50%); /* 화살표의 중간을 기준으로 조정 */
-    cursor: pointer; /* 마우스 오버 시 손 모양으로 변경 */
-    width: 50px; /* 화살표의 너비를 조정. 필요한 경우 값 변경 */
-    height: auto; /* 화살표의 높이를 자동 조정 */
+    z-index: 10; /* �긽�뭹 �씠誘몄� �쐞�뿉 �쐞移� */
+    top: 2500px; /* �긽�쐞 �슂�냼�쓽 以묎컙�뿉 �쐞移�
+    transform: translateY(-50%); /* �솕�궡�몴�쓽 以묎컙�쓣 湲곗��쑝濡� 議곗젙 */
+    cursor: pointer; /* 留덉슦�뒪 �삤踰� �떆 �넀 紐⑥뼇�쑝濡� 蹂�寃� */
+    width: 50px; /* �솕�궡�몴�쓽 �꼫鍮꾨�� 議곗젙. �븘�슂�븳 寃쎌슦 媛� 蹂�寃� */
+    height: auto; /* �솕�궡�몴�쓽 �넂�씠瑜� �옄�룞 議곗젙 */
 }
 
 .gdGdsCB .gdsBxPc span {
@@ -444,13 +444,13 @@ div.cgTBox > span.cgTboxS.gdsTBxPc_on{
 .left-arrow {
     margin: 150px 0px 0px 270px;
     float: left;
-    left: 0px; /* 왼쪽에 위치. 슬라이드 바깥으로 60px만큼 이동 */
+    left: 0px; /* �쇊履쎌뿉 �쐞移�. �뒳�씪�씠�뱶 諛붽묑�쑝濡� 60px留뚰겮 �씠�룞 */
 }
 
 .right-arrow {
     margin: 150px 200px 0px 0px;
     float: right;
-    right: 0px; /* 오른쪽에 위치. 슬라이드 바깥으로 60px만큼 이동 */
+    right: 0px; /* �삤瑜몄そ�뿉 �쐞移�. �뒳�씪�씠�뱶 諛붽묑�쑝濡� 60px留뚰겮 �씠�룞 */
 }
 
 
@@ -461,4 +461,5 @@ div.cgTBox > span.cgTboxS.gdsTBxPc_on{
     /* border: 1px solid black; */
 }
 
-/* 이미지 슬라이드 */
+/* �씠誘몄� �뒳�씪�씠�뱶 */
+/*개 킹받네*/
