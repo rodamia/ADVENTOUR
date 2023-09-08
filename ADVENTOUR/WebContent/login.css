@@ -1,0 +1,197 @@
+*{
+    max-width: 1903px;
+    font-weight: bold;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+    padding: 0px;
+}
+
+input{
+    padding-left: 10px;
+    font-style: normal;
+    border-radius: 7px;
+    border: 2px solid rgb(49, 49, 90)!important;
+}
+
+.top_box{
+    width: 650px;
+    height: 82px;   
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* 로고 이미지 박스 */
+.logo_img img{
+    width: 230px;
+    height: 25px;
+    margin-left: 210px;
+    margin-right: 210px;
+    float: left;
+    /* margin: 0px 0px 10px 120px; */
+}
+/* 로그인 텍스트 박스 */
+.memship_t h3{
+    width: 650px;
+    height: 35px;
+    float: left;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    color: rgb(2, 2, 90);
+    border: solid rgb(36, 82, 36);
+    border-width: 0px 0px 5px 0px;
+}
+/*기본*/
+.form_box{
+    width: 590px;
+    height: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*  */
+.form_input{
+    width: 550px;
+    height: 850px;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: left;
+}
+/* -------------------스타일 클래스---------------- */
+
+/* -----------패딩 클래스---------- */
+/* 패딩 왼10+위5 */
+.padding_lft_btm{
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+/* ------------마진 클래스---------- */
+/* 마진 왼쪽 10*/
+.margin_lft1{
+    margin-left: 10px!important;
+}
+/* 마진 오른쪽 10 */
+.margin_rght1{
+    margin-right: 10px!important;
+}
+/* 마진 바텀 10 */
+.margin_btm1{
+    margin-bottom: 10px!important;
+}
+/* 마진 탑 10 */
+.margin_top1{
+    margin-top: 10px!important;
+}
+/* ------------마진 10px 끝------------ */
+/* 마진 왼쪽 20 */
+.margin_lft2{
+    margin-left: 20px!important;
+}
+/* 마진 오른쪽 20 */
+.margin_rght2{
+    margin-right: 20px!important;
+}
+/* 마진 바텀 20 */
+.margin_btm2{
+    margin-bottom: 20px!important;
+}
+/* 마진 탑 20 */
+.margin_top2{
+    margin-top: 20px!important;
+}
+/* ------------마진 20px 끝------------ */
+
+/* 박스 왼쪽 '선' 두께 */
+.bodr_lft_wdth{
+    border: solid black;
+    border-width: 0px 0px 0px 1px;
+}
+
+/* ------------input 텍스트 박스 클래스------------ */
+.m_size{
+    width: 300px;
+    height: 45px;
+    margin-top: 5px; 
+    margin-bottom: 10px;
+ }
+
+
+/* ------------버튼 클래스------------ */
+ /*로그인 버튼 기본 클래스*/
+.l_btn{
+    width: 550px;
+    height: 55px;
+    font-size: 25px;
+    opacity: 0.7;
+    color: white;
+    margin-bottom: 100px;
+}
+/* 로그인 버튼 스타일 클래스*/
+.btn_color{
+    opacity: 0.8;
+    background-color: rgb(114, 114, 156);
+}
+
+/* ------------텍스트 스타일 클래스------------ */
+.star_col_red{
+    color: tomato;
+}
+/* ----------------------------------로그인 footer----------------------------------------- */
+.foot_box{
+    width: 900px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(0, 37, 84);
+    background-color: ivory;
+    border: solid rgb(0, 46, 46);
+}
+.foot_nv_al_box{
+    width: 500px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    font-size: 12px!important;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.foot_nav_box1{
+    width: 50px;
+    height: 28px;
+    float: left;
+}
+.foot_nav_box2{
+    width: 100px;
+    height: 28px;
+    float: left;
+}
+.foot_nav_box3{
+    width: 130px;
+    height: 28px;
+    float: left;
+}
+
+.foot_info_box{
+    width: 720px;
+    height: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.foot_logo_img img{  
+    width: 100px;
+    height: 24px;
+    padding: 0px 10px 10px 0px;
+    float: left;
+}
+
+.foot_Txt{  
+    width: 510px;
+    height: 34px;
+    float: left;
+    font-size: 13px;
+    padding: 10px 0px 0px 10px;
+}
