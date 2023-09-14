@@ -1,0 +1,90 @@
+<!DOCTYPE Html>
+<html lang="ko">
+<!-- MyPage 문의하기 -->
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="mypage/inquiry.css">
+    <script src=https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.0.js></script>
+    <script src="mypage/inquiry.js"></script>
+    <title>Contact the Site</title>
+</head>
+
+
+<body>
+	<header>
+		<!-- header.html import-->
+    	<div id="header"></div>
+	</header>
+
+    <!-- 메인 컨텐츠 전체 박스 -->
+    <div class="alMainB">
+        <!--메인페이지 글씨 박스-->
+        <div class="mainTB">
+            <p>메인페이지</p>
+        </div>
+
+        <!--메인 네비와 빠른 예약, 캘린더 컨테인한 박스 -->
+        <div class="mainNCB"> 
+
+            <!-- mpg_nvbox.html import-->
+            <div id="mpg_nvbox"></div>
+            
+            <!--게시판-->
+		    <div class="board">
+		        <h2>게시판</h2>
+<!-- 		        게시글 목록은 table 사용하는 방식과 -->
+<!-- 		        인터넷에 많은 grid라이브러리 사용하는 방식중 고민중 -->
+<!-- 					1. 테이블 -->
+				<div class="div-board">
+				    <div class="post-header">
+				        <span>글 번호</span>
+				        <span>글 제목</span>
+				        <span>글쓴이</span>
+				        <span>글쓴시각</span>
+				    </div>
+				    <div id="postDivList">
+				        <div class="post-item">
+				            <span>1</span>
+				            <span>제목1</span>
+				            <span>작성자1</span>
+				            <span>2023-09-15 12:00</span>
+				        </div>
+				        <div class="post-item">
+				            <span>2</span>
+				            <span>제목2</span>
+				            <span>작성자2</span>
+				            <span>2023-09-15 12:10</span>
+				        </div>
+				        <div class="post-item">
+				            <span>3</span>
+				            <span>제목3</span>
+				            <span>작성자3</span>
+				            <span>2023-09-15 12:20</span>
+				        </div>
+				    </div>
+				        <div class="pagination" id="divPagination">
+					        <a href="#" id="firstPage"><<</a>
+					        <a href="#" id="prevPage"><</a>
+					        <!-- 페이지 번호는 여기에 동적으로 추가됩니다. -->
+					        <a href="#" id="nextPage">></a>
+					        <a href="#" id="lastPage">>></a>
+					    </div>
+				</div>
+
+		        <ul id="postList">
+		        
+		            <!-- 게시글 목록 -->
+		        </ul>
+		        <div class="input-area">
+<!-- 		            <input type="text" id="postInput" placeholder="게시글 내용을 입력하세요"> -->
+		            <button onclick="movePost()">문의하기</button>
+		        </div>
+		    </div>
+        </div>
+        
+    </div>
+   	<!-- footer.html import-->
+	<div id="footer"></div>
+</body>
+
+</html>

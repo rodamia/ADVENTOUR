@@ -1,0 +1,53 @@
+<!DOCTYPE Html>
+<html lang="ko">
+<!-- MyPage 문의하기 -->
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="mypage/inquiry.css">
+    <script src=https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.0.js></script>
+    <script src="mypage/inquiry.js"></script>
+    <title>Contact the Site</title>
+</head>
+
+
+<body>
+	<header>
+		<!-- header.html import-->
+    	<div id="header"></div>
+	</header>
+
+    <!-- 메인 컨텐츠 전체 박스 -->
+    <div class="alMainB">
+        <!--메인페이지 글씨 박스-->
+        <div class="mainTB">
+            <p>메인페이지</p>
+        </div>
+
+        <!--메인 네비와 빠른 예약, 캘린더 컨테인한 박스 -->
+        <div class="mainNCB"> 
+
+            <!-- mpg_nvbox.html import-->
+            <div id="mpg_nvbox"></div>
+            
+            <!--게시판-->
+		    <div class="board">
+		        <h2>문의</h2>
+<!-- 		        게시글 목록은 table 사용하는 방식과 -->
+<!-- 		        인터넷에 많은 grid라이브러리 사용하는 방식중 고민중 -->
+<!-- 					1. 테이블 -->
+
+
+		        <div class="input-area">
+						<textarea id="postText"></textarea>
+<!-- 		            <input type="text" id="postInput" placeholder="게시글 내용을 입력하세요"> -->
+		            <button onclick="addPost()">문의 전송하기?</button>
+		        </div>
+		    </div>
+        </div>
+        
+    </div>
+   	<!-- footer.html import-->
+	<div id="footer"></div>
+</body>
+
+</html>
